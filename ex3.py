@@ -6,7 +6,7 @@ def ex4(str_set):
 
 
 def is_valid(s):
-    return re.match('^[a-mA-M]+$', s)
+    return re.match(r'^[a-mA-M]+$', s)
 
 
 if __name__ == '__main__':
